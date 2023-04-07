@@ -10,12 +10,12 @@ import { Cancel } from '@material-ui/icons'
 function Landing()
 {
     const axios=require('axios').default
-    const client_id=563865970932811
-    const client_secret="e3e961edaed1d2173e415ab387d5a8bb"
-    const long_access_token="IGQVJXVHM0ZADJISjFpdXpzenVaNVFxS29CSFhlVW9qb3JnelYzU3p5Q3c3dGpnUDlJUzZAzMlowYU53ejlobjNNSDB6Q0MtRDhLSk94aFMzb2FvOTZAadGd0OU0wal9JTlNrS3UzeF9n"
-    const design_access_token="IGQVJXM3gzS244V3hheUhpVEk1ZAjZAJSXNnODRhNF9ZAaFhleGVJcXlxVHJRVGkySnRKWk1UYjhJaU1aeml0akZAkcHZAWZA3R5Q3ZA1amZAzTTB3SGZAkd0thR2gwakEwektjUFgzV3A1VnFCOG04ekJ5NTZAfbAZDZD"
-    const final_access_token="IGQVJWNVZABZAUVVblZA2SnU1cVJJTUZAOdHBjYlNoN1kwNEY1dVUtNWJOYTNQSWJxZAzJtVVYzaTF0bWlnZAmhjS0ZAYVFM1bDZAVVUNvc1pjdnJUcmJDNGZAYcXpJcE5WMEwzZAkt4NWtRa0h2ZAVhKVmFBeXJBRAZDZD"
-    const user_id="563865970932811"
+    const client_id=0
+    const client_secret=""
+    const long_access_token=""
+    const design_access_token=""
+    const final_access_token=""
+    const user_id=""
 
     const [dataFlag,setDataFlag]=useState(1)
     const [data,setData]=useState(null)  
